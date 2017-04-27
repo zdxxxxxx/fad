@@ -1,0 +1,50 @@
+{
+  "name": "fars-demo",
+  "version": "1.0.0",
+  "description": "fast develop",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ../www && fis3 release prod -d ../",
+    "watch": "fis3 release prod -d ../ -w",
+    "server": "fis3 server start && fis3 release prod -wL "
+  },
+  "dependencies": {
+    "antd": "2.9.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "classnames": "^2.2.3",
+    "dva": "^1.2.1",
+    "echarts-for-react": "^1.1.5",
+    "immutable": "^3.8.1",
+    "less": "^2.7.1",
+    "react": "^15.1.0",
+    "react-codemirror": "^0.2.6",
+    "react-dom": "^15.1.0",
+    "redux-saga": "0.14.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-plugin-import": "1.1.0",
+    "blueimp-md5": "^2.7.0",
+    "process": "^0.11.9",
+    "fis-parser-babel-6.x": "^6.20.0",
+    "fis3-hook-commonjs": "^0.1.25",
+    "fis3-hook-node_modules": "^2.2.8",
+    "fis3-packager-deps-pack": "^0.1.2",
+    "fis3-parser-less-2.x": "^0.1.4",
+    "fis3-postpackager-loader": "^2.1.3",
+    "fis3-preprocessor-js-require-css": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdxxxxxx/fars-demo.git"
+  },
+  "author": "zdxxxxxx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zdxxxxxx/fars-demo/issues"
+  },
+  "homepage": "https://github.com/zdxxxxxx/fars-demo#readme"
+}
